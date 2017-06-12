@@ -23,7 +23,7 @@ class DisclaimerAlert extends Component {
     render() {
         if (this.state.alertVisible) {
       return (
-        <Alert bsStyle="danger" onDismiss={this.handleAlertDismiss}>
+        <Alert bsStyle="danger" onDismiss={this.handleAlertDismiss} style={{margin:0}}>
           <h4>Important disclaimer</h4>
           <p>Please note i'm neither a nutritionist nor a fitness trainer. I have listed what had best worked out for me. Please take this workouts and diet as reference only.</p>
         </Alert>

@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Home from './components/home';
 import Diet from './components/diet';
+import AboutUS from './components/aboutUs';
+import Contact from './components/contact';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
@@ -14,6 +16,8 @@ ReactDOM.render(
       <Route path='/' component={App} >
         <IndexRoute component={Home} />
         <Route path='diet' component={Diet} />
+        <Route path='contact' component={Contact} />
+        <Route path='aboutUs' component={AboutUS} />
       </Route>
     </Router>, 
     document.getElementById('root'));

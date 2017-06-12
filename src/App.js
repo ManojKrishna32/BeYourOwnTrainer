@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navigation from './components/navigation';
-import DisclaimerAlert from './components/disclaimerAlert'
+import DisclaimerAlert from './components/disclaimerAlert';
+import Footer from './components/footer'
 
 class App extends Component {
   
@@ -13,7 +14,10 @@ class App extends Component {
         <div style={styles.containerClass}>
           {this.props.children}
         </div>
+
           <DisclaimerAlert/>
+
+          <Footer />
       </div>
     );
   }
