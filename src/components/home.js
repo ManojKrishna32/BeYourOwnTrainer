@@ -70,7 +70,7 @@ const Home = (props) => (
 
 const styles = {
     mainMessage: {
-        height: '91vh',
+        height: '92vh',
         display: 'flex',
         marginBottom: 20,
         alignItems: 'center',
@@ -83,7 +83,11 @@ const styles = {
         
     },
     eatClean: {
-        height: 500,
+        height: '92vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems:'center',
         marginBottom: 20,
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
@@ -94,7 +98,11 @@ const styles = {
     },
 
      stayHydrated: {
-        height: 500,
+        height: '92vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems:'center',
         marginBottom: 20,
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
@@ -105,7 +113,11 @@ const styles = {
     },
 
     goHardOrGoHome: {
-        height: 500,
+        height: '92vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems:'center',
         marginBottom: 20,
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
@@ -116,7 +128,11 @@ const styles = {
     },
 
     mindMuscleConnection: {
-        height: 500,
+        height: '92vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems:'center',
         marginBottom: 20,
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
@@ -127,7 +143,11 @@ const styles = {
     },
 
     consistencyPatienceDedicationPreparation: {
-        height: 500,
+        height: '92vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems:'center',
         marginBottom: 20,
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
@@ -138,7 +158,11 @@ const styles = {
     },
 
     rest: {
-        height: 500,
+        height: '92vh',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems:'center',
         marginBottom: 20,
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
