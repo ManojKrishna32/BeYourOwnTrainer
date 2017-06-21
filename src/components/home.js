@@ -78,7 +78,8 @@ const styles = {
         padding: '5%',
         backgroundImage: 'url("http://jpt-personal-trainer.webs.com/fitness-motivation-16362.jpg")',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
-        backgroundSize: 'cover',
+        backgroundSize: '100% 100%',
+        overflowY: 'scroll'
         
     },
     eatClean: {
@@ -87,7 +88,8 @@ const styles = {
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
         backgroundImage: 'url("http://www.fitnessreal.es/wp-content/uploads/2017/02/283766-Sepik.jpg")',
-        backgroundSize: 'cover',   
+        backgroundSize: '100% 100%',
+        overflowY: 'scroll',  
         color: 'white'
     },
 
@@ -97,7 +99,8 @@ const styles = {
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
         backgroundImage: 'url("https://cdn.shutterstock.com/shutterstock/videos/3087235/thumb/4.jpg")',
-        backgroundSize: 'cover',   
+        backgroundSize: '100% 100%',
+        overflowY: 'scroll', 
         color: 'white'
     },
 
@@ -107,7 +110,8 @@ const styles = {
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
         backgroundImage: 'url("http://www.desansiedad.com/wp-content/uploads/2014/05/desansiedad-por-que-hacerte-el-fuerte-te-debilita-y-dejarte-sentir-te-fortalece.jpg")',
-        backgroundSize: 'cover',   
+        backgroundSize: '100% 100%',
+        overflowY: 'scroll',   
         color: 'white'
     },
 
@@ -117,7 +121,8 @@ const styles = {
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
         backgroundImage: 'url("http://www.grypit.com/images/blog/pic-blog-1.jpg")',
-        backgroundSize: 'cover',   
+       backgroundSize: '100% 100%',
+        overflowY: 'scroll',   
         color: 'white'
     },
 
@@ -127,7 +132,8 @@ const styles = {
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
         backgroundImage: 'url("http://cdn2.bigcommerce.com/n-biq04i/gybma/images/stencil/1280x650/uploaded_images/adobestock-119530146.jpeg")',
-        backgroundSize: 'cover',   
+        backgroundSize: '100% 100%',
+        overflowY: 'scroll',   
         color: 'white'
     },
 
@@ -137,7 +143,8 @@ const styles = {
         padding: '5%',
         boxShadow: '0px 6px 10px 5px rgba(0,0,0,0.35)',
         backgroundImage: 'url("https://s-media-cache-ak0.pinimg.com/originals/48/fe/dc/48fedc816654ae6663c74069b6846b86.jpg")',
-        backgroundSize: 'cover',   
+        backgroundSize: '100% 100%',
+        overflowY: 'scroll',   
         color: 'white'
     }
 }

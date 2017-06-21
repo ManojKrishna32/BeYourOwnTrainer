@@ -1,4 +1,5 @@
 import React,  { Component } from 'react'
+import MediaQuery from 'react-responsive'
 
 import SidePanels from './sidePanels'
 import DietContent from './dietContent'
@@ -18,13 +19,22 @@ class Diet extends Component {
 
   render() {
     return  (
-      <div >
-    <div style={styles.sideNav}>
-        <SidePanels />
-    </div>
-    <div style={styles.content}>
-        <DietContent />
-    </div>
+    <div >
+      <MediaQuery query='(min-device-width: 1224px)'>
+        <div style={styles.sideNavDesktop}>
+            <SidePanels />
+        </div>
+        <div style={styles.contentDesktop}>
+            <DietContent />
+        </div>
+          
+        </MediaQuery>
+
+        <MediaQuery query='(max-width: 1224px)'>
+            <div style={styles.contentMobile}>
+              <DietContent />
+            </div>
+          </MediaQuery>
   </div>
     )
   }
@@ -32,14 +42,21 @@ class Diet extends Component {
 };
 
 const styles= {
-  sideNav: {
-    height:'100vh',
+  sideNavDesktop: {
+    height:'auto',
     position: 'fixed',
-    width: '15%',
+    width: '15%'
   },
-  content: {
-    marginLeft: '25%',
-    textAlign: 'left'
+  contentDesktop: {
+    flex:1,
+    textAlign: 'left',
+    marginLeft: '20%',
+    padding:'0 1%'
+  },
+  contentMobile: {
+    flex:1,
+    textAlign: 'left',
+    padding:'0 2%'
   }
 }
 
