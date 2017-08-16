@@ -2,35 +2,33 @@ import React, { Component } from 'react';
 import './App.css';
 import Navigation from './components/navigation';
 import DisclaimerAlert from './components/disclaimerAlert';
-import Footer from './components/footer'
+import Footer from './components/footer';
 
 class App extends Component {
-  
   render() {
     return (
       <div className="App">
         <Navigation />
-        
+
         <div style={styles.containerClass}>
           {this.props.children}
         </div>
 
-          <DisclaimerAlert/>
+        <DisclaimerAlert />
 
-          <Footer />
+        <Footer />
       </div>
     );
   }
 }
 
-const styles= {
+const styles = {
   containerClass: {
-       marginLeft: '1%',
-       marginRight: '1%',
-       marginTop: 60,
-       backgroundColor: '#fefefe'
-       
-    },
-}
+    marginLeft: '1%',
+    marginRight: '1%',
+    marginTop: 60,
+    backgroundColor: '#fefefe'
+  }
+};
 
 export default App;

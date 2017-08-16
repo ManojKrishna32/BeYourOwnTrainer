@@ -1,39 +1,27 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
 
-import SidePanels from './sidePanels';
-import DietContent from './dietContent';
+import WorkoutSidePannel from './workoutSidePannel';
+import WorkoutContent from './workoutContent';
 
-class Diet extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeKey: '1'
-    };
-    this.handleSelect = this.handleSelect.bind(this);
-  }
-
-  handleSelect(activeKey) {
-    this.setState({ activeKey });
-  }
-
+class Workout extends Component {
   render() {
     return (
       <div>
         <MediaQuery query="(min-device-width: 1224px)">
           <div style={styles.sideNavDesktop}>
-            <SidePanels />
+            <WorkoutSidePannel />
           </div>
           <div style={styles.contentDesktop}>
-            <DietContent />
+            <WorkoutContent />
           </div>
         </MediaQuery>
-
+        {/* 
         <MediaQuery query="(max-width: 1224px)">
           <div style={styles.contentMobile}>
-            <DietContent />
+            <WorkoutContent />
           </div>
-        </MediaQuery>
+        </MediaQuery> */}
       </div>
     );
   }
@@ -58,4 +46,4 @@ const styles = {
   }
 };
 
-export default Diet;
+export default Workout;
