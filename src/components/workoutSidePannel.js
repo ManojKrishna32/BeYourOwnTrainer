@@ -37,7 +37,7 @@ class WorkoutSidePannel extends Component {
           {data.data.map((obj, index) => {
             if (index + 1 >= start && index < end) {
               return (
-                <div>
+                <div key={index}>
                   <ListGroupItem>
                     <div
                       onClick={this.scrollToView.bind(this, `day${index + 1}`)}

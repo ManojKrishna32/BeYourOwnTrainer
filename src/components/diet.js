@@ -20,7 +20,7 @@ class Diet extends Component {
   render() {
     return (
       <div>
-        <MediaQuery query="(min-device-width: 1224px)">
+        <MediaQuery query="(min-device-width: 720px)">
           <div style={styles.sideNavDesktop}>
             <SidePanels />
           </div>
@@ -29,7 +29,7 @@ class Diet extends Component {
           </div>
         </MediaQuery>
 
-        <MediaQuery query="(max-width: 1224px)">
+        <MediaQuery query="(max-width: 720px)">
           <div style={styles.contentMobile}>
             <DietContent />
           </div>

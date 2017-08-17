@@ -4,9 +4,8 @@ const Home = props =>
   <div>
     <div style={styles.mainMessage}>
       <h1>
-        Everyone is unique in their own way. No one knew about yourself better
-        than you do. So start exploring yourself and choose what suits best for
-        . you
+        Every 'body' is unique in their own way. No one knew about yourself better
+        than you do. So start exploring yourself and choose what suits best for you
       </h1>
     </div>
 

@@ -14,7 +14,7 @@ const Navigation = props =>
       <Navbar.Header>
         <Navbar.Brand>
           <span>
-            <Link to="/"> Be Your Own Trainer </Link>
+            <Link to="/" style={{color: 'white'}}> Be Your Own Trainer </Link>
           </span>
         </Navbar.Brand>
         <Navbar.Toggle />

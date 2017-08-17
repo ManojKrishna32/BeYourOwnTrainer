@@ -8,7 +8,7 @@ class Workout extends Component {
   render() {
     return (
       <div>
-        <MediaQuery query="(min-device-width: 1224px)">
+        <MediaQuery query="(min-device-width: 720px)">
           <div style={styles.sideNavDesktop}>
             <WorkoutSidePannel />
           </div>
@@ -16,12 +16,12 @@ class Workout extends Component {
             <WorkoutContent />
           </div>
         </MediaQuery>
-        {/* 
-        <MediaQuery query="(max-width: 1224px)">
+        
+        <MediaQuery query="(max-width: 720px)">
           <div style={styles.contentMobile}>
             <WorkoutContent />
           </div>
-        </MediaQuery> */}
+        </MediaQuery>
       </div>
     );
   }

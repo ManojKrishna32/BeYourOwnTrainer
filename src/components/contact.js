@@ -5,7 +5,7 @@ const Contact = () => {
     <div style={{ textAlign: 'left', height: '69vh', padding: '5% 10% 0 10%' }}>
       <h1>Contact</h1>
       <br />
-      <p>Email:</p>
+      <p>Email: manojkrishna_32@yahoo.com</p>
       <small>will add other contacts very soon...</small>
     </div>
   );

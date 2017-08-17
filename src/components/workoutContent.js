@@ -9,6 +9,7 @@ const WorkoutContent = () => {
         <h2>
           Day {info.day}
         </h2>
+        <hr/>
         {info.workouts.map(workout =>
           <div key={info.day + '' + workout.type}>
             <h4>
@@ -25,6 +26,7 @@ const WorkoutContent = () => {
             </ul>
           </div>
         )}
+        <br/>
       </div>
     );
   });

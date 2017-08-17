@@ -22,7 +22,7 @@ const Footer = props => {
         </p>
       </div>
       <div style={styles.columns}>
-        <p>
+        <p style={{color: 'white'}}>
           Please note i'm neither a nutritionist nor a fitness trainer. I have
           listed what had best worked out for me. Please take this workouts and
           diet as reference only.
